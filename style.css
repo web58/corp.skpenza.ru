@@ -1,0 +1,188 @@
+/*!
+Theme Name: hpk
+Author: Kerm
+Description: Description
+Version: 1.0.0
+Text Domain: byKerm.ru
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap&subset=cyrillic-ext");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #363B6A;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+html, body {
+  min-height: 100vh !important;
+  height: 100% !important;
+  margin: 0; }
+
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; }
+
+footer, header {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; }
+
+*::before, *::after {
+  max-width: 100%; }
+
+ul {
+  margin: 0; }
+
+li {
+  margin: 0;
+  padding: 0; }
+
+img, svg {
+  display: block;
+  max-height: 100%;
+  max-width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.15rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #363B6A;
+  text-decoration: none; }
+
+p, span, a {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  color: #363B6A;
+  text-decoration: none; }
+  p:hover, span:hover, a:hover {
+    color: #363B6A;
+    text-decoration: none; }
+
+input {
+  max-width: 100%; }
+
+input[type="submit"] {
+  padding: 1px 5px; }
+
+.request-block {
+  margin-bottom: 30px; }
+
+.request-header table {
+  border-collapse: separate;
+  border: 2px solid #3C7FB7;
+  border-radius: 10px;
+  border-spacing: 0; }
+
+.request-header table td:first-child {
+  border-left: none; }
+
+.request-header table td {
+  border-left: 1px solid #D4D3D3;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.request-number {
+  width: 70px;
+  padding: 5px 10px;
+  border-radius: 6px 0 0 6px;
+  color: #FFFFFF;
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4589C2), color-stop(45%, #3C7FB7), to(#3774A8));
+  background-image: linear-gradient(#4589C2, #3C7FB7 45%, #3774A8);
+  background: #4589c2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4589c2), color-stop(45%, #3c7fb7), to(#3774a8));
+  background: linear-gradient(to bottom, #4589c2 0%, #3c7fb7 45%, #3774a8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4589c2', endColorstr='#3774a8',GradientType=0 ); }
+
+.status {
+  width: 820px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000; }
+
+.request-block .files-list {
+  font-size: 12px; }
+
+.files-list p {
+  margin-bottom: 5px;
+  border-top: 1px dashed #D3D4D4;
+  padding: 3px 0 0 20px;
+  background: url(./files/img/icon-file.svg) no-repeat left 4px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #333333; }
+
+p {
+  margin: 0 0 10px; }
+
+.files-list a {
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  color: #3C7FB7; }
+
+.float-right {
+  float: right;
+  margin-left: 20px; }
+
+.btn-group .btn:first-child {
+  margin-left: 0; }
+
+.btn-group .btn {
+  margin-left: 8px; }
+
+.btn {
+  text-decoration: none !important;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  border: 1px solid #326A98;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(225, 225, 225, 0.2) inset;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(225, 225, 225, 0.2) inset;
+  color: #FFFFFF;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4589C2), color-stop(45%, #3C7FB7), to(#3774A8));
+  background-image: linear-gradient(#4589C2, #3C7FB7 45%, #3774A8);
+  background: #4589c2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4589c2), color-stop(45%, #3c7fb7), to(#3774a8));
+  background: linear-gradient(to bottom, #4589c2 0%, #3c7fb7 45%, #3774a8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4589c2', endColorstr='#3774a8',GradientType=0 ); }
+
+.margin-bottom {
+  margin-bottom: 10px; }
+
+.w170 {
+  width: 170px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333; }
