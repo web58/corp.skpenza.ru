@@ -196,3 +196,9 @@ p {
 
 .input__wrapper label {
   cursor: pointer; }
+
+.title-block tr th {
+  font-weight: bold; }
+
+.block {
+  margin: 30px 0; }
